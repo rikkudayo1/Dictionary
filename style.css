@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(219, 240, 243);
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.container {
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 28px -17px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 28px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 28px -17px rgba(0,0,0,0.75);
+}
+
+.inputs {
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: ghostwhite;
+    box-shadow: 10px 10px 28px -34px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 10px 10px 28px -34px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 10px 10px 28px -34px rgba(0,0,0,0.75) inset;
+}
+
+.inputs button {
+    margin-right: 10px;
+    background: transparent;
+}
+.inputs input {
+    margin-left: 10px;
+    width: 250px;
+    background: transparent;
+}
+.inputs button:hover {
+    cursor: pointer;
+}
+.container audio {
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid ghostwhite;
+}
+.inner-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
