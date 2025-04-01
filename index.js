@@ -17,7 +17,7 @@ searchbutton.addEventListener('click', () => {
 });
 
 function fetchDict(value) {
-    const apiKey = '48f66f84-d86c-4251-8deb-7a0d7a6a8daa';
+    const apiKey = 'Your api key'; // get it from dictionaryapi.com
     const url = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${value}?key=${apiKey}`;
 
     fetch(url)
